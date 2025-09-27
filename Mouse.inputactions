@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Mouse",
+    "maps": [
+        {
+            "name": "Basket",
+            "id": "25e2c53c-2a6a-4317-b061-78e408bcdd4a",
+            "actions": [
+                {
+                    "name": "MouseMove",
+                    "type": "Value",
+                    "id": "58e7920d-bac8-4a81-afc5-6751bae8ad3b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8c68e116-882e-4d90-a2a5-aaac354a49cc",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
